@@ -1,0 +1,41 @@
+/* src/OurStory.css */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.our-story {
+  background-image: url('/public/assets/eventDetailPic1.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 50vh; /* Adjust height to fit viewport */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px; 
+}
+
+.content-left, .content-right {
+  flex: 1; /* Allow content to shrink but not grow */
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent background */
+  color: white;
+  border-radius: 10px; /* Rounded corners */
+  box-sizing: border-box;
+  overflow: hidden; /* Hide any overflowing content */
+}
+
+.content-left {
+  margin-right: 20%; 
+  margin-left: 3%;
+  /* Add spacing between left and right content */
+}
+
+.content-right {
+  margin-left: 20%;
+  margin-right: 3%;
+  /* Add spacing between left and right content */
+}

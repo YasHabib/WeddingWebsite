@@ -1,0 +1,27 @@
+/* src/App.css */
+ 
+  .App-header {
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+  }
+
+  .App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the app takes up at least the viewport height */
+    overflow: hidden; /* Hide overflow to prevent double scrollbar issues */
+  }
+  
+  #our-story {
+    flex: 1; /* Expand to take remaining space */
+    overflow-y: auto; /* Enable scrolling if content exceeds viewport */
+  }
+  
+  #event-details {
+    flex: 1; /* Expand to take remaining space */
+    overflow-y: auto; /* Enable scrolling if content exceeds viewport */
+  }
+
+  
+  
