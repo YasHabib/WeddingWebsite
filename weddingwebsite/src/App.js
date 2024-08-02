@@ -8,10 +8,11 @@ import PasswordComponent from './components/PasswordComponents'
 
 function App() {
   const [loggedIn, setLoggedIn] = useState(false);
+  const password = process.env.REACT_APP_PASSWORD;
 
   const handlePasswordSubmit = (enteredPassword) => {
     // Replace 'yourPassword' with your actual password
-    if (enteredPassword === 'FarhanaWedsYasin060924') {
+    if (enteredPassword === password) {
       setLoggedIn(true);
     } else {
       alert('Incorrect password. Please try again.');
