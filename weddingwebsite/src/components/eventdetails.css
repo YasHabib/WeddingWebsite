@@ -7,11 +7,16 @@ body {
 
 #eventContainer {
     display: flex;
-    align-content: center;
-    background-color: lightblue;
-    background-image: url('/public/assets/background2.jpg'); 
+    flex-direction: column; /* Ensure items stack vertically */
+    align-items: center; /* Center align items horizontally */
+    justify-content: center; /* Center align items vertically */
+    background-image: url('/public/assets/White Beige BG.png'); 
     background-size: cover;
     background-position: center;
+    background-repeat: repeat-x;
+    width: 100%; /* Ensure container takes full width */
+    min-height: 100vh; /* Ensure container takes full height of the viewport */
+    padding: 20px; /* Add padding for spacing */
 }
 
 #eventContainer div {
@@ -19,16 +24,16 @@ body {
     width: 100%;
     justify-content: center;
     display: flex;
-    height: 150vh;
+    height: 100vh;
     /* Adjust height to fit viewport */
 }
 
 .info {
-    padding: 1px;
-    background-color: rgba(0, 0, 0, 0.3);
+    padding: 15px;
     /* Semi-transparent background */
-    color: yellow;
-    border-radius: 10px;
+    background-color: rgba(70, 235, 204, 0.1);
+    color: brown;
+    border-radius: 40px;
     /* Rounded corners */
     box-sizing: border-box;
     overflow: hidden;
@@ -41,27 +46,21 @@ body {
     font-size: small;
 }
 
-.holudDetails {
-    /* background-image: url('/public/assets/eventDetailPic1.jpg'); */
-    background-size: cover;
-    background-position: center;
-    padding: 20px;
-    /* Padding inside the section */
+@media (min-width: 768px) {
+    #eventContainer {
+        flex-direction: row; /* Change to row direction for desktop */
+    }
+    .column {
+        width: calc(33.333% - 40px); /* Adjust width for three columns with spacing */
+        margin-bottom: 0; /* Remove bottom margin for desktop view */
+    }
 }
 
 
 .nikkahDetails {
-    /* background-image: url('/public/assets/eventDetailPic2.jpg'); */
-    background-size: cover;
-    background-position: center;
     padding: 20px;
-    /* Padding inside the section */
 }
 
 .receptionDetails {
-    /* background-image: url('/public/assets/eventDetailPic3.jpg'); */
-    background-size: cover;
-    background-position: center;
     padding: 20px;
-    /* Padding inside the section */
 }

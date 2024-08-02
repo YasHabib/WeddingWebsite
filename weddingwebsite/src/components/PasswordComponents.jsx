@@ -14,7 +14,7 @@ const PasswordComponent = ({ onPasswordSubmit }) => {
   return (
     <div className='enterPassword'>
       <form onSubmit={handleFormSubmit}>
-        <label htmlFor="password">Enter the password provided to you by one of the hosts :</label>
+        <label htmlFor="password" style={{marginBottom: '15px', display:'block'}}>Enter the password provided to you by one of the hosts :</label>
         <input
           type="password"
           id="password"
@@ -22,7 +22,8 @@ const PasswordComponent = ({ onPasswordSubmit }) => {
           onChange={(e) => setPassword(e.target.value)}
           required
         />
-        <button type="submit">Submit</button>
+        <br/>
+        <button type="submit" style={{marginTop: '15px', padding: '8px 16px', borderRadius: '4px', backgroundColor: 'darkBlue', color: '#fff', border: 'none', cursor: 'pointer'}}>Submit</button>
       </form>
     </div>
   );

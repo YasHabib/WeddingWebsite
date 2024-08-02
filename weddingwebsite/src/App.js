@@ -11,7 +11,7 @@ function App() {
 
   const handlePasswordSubmit = (enteredPassword) => {
     // Replace 'yourPassword' with your actual password
-    if (enteredPassword === 'FarhanaWedsYasin080924') {
+    if (enteredPassword === 'FarhanaWedsYasin060924') {
       setLoggedIn(true);
     } else {
       alert('Incorrect password. Please try again.');
