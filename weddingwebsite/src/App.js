@@ -3,12 +3,14 @@ import React, { useState } from 'react';
 import OurStory from './components/OurStory';
 import EventDetails from './components/EventDetails';
 import PasswordComponent from './components/PasswordComponents'
+import ViewPassword from './components/ViewPassword'
 
 
 
 function App() {
   const [loggedIn, setLoggedIn] = useState(false);
   const password = process.env.REACT_APP_PASSWORD;
+
 
   const handlePasswordSubmit = (enteredPassword) => {
     // Replace 'yourPassword' with your actual password

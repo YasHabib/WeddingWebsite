@@ -7,13 +7,7 @@ function OurStory() {
     <div className="our-story" >
       <div className="content-left">
         {/* Left content here */}
-        <h3>Yasin to write</h3>
-        <p>This is where you write stuff for the left side.</p>
-      </div>
-      <div className="content-right">
-        {/* Right content here */}
-        <h3>Farhana to write</h3>
-        <p>This is where you write stuff for the right side.</p>
+        <p>True happiness is when I see you walking towards me with a big smile</p>
       </div>
     </div>
   );

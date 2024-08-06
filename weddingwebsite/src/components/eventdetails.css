@@ -42,8 +42,8 @@ body {
     display: flex;
     flex-direction: column;
     font-style: italic;
-    font-family: sans-serif;
     font-size: small;
+    font-family: 'Dancing Script', cursive;
 }
 
 @media (min-width: 768px) {

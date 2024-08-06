@@ -5,8 +5,8 @@ const ReceptionDetails = () => {
         <div className='receptionDetails' style={{padding: '20px'}}>
             <div className='info'>
                 <h1>Reception</h1>
-                <h4>Venue: Rio Banquet Hall <br /> 6021 Madigan Dr NE, Calgary, AB T2A 5G9 </h4>
-                <h4>Dress Code: Formal</h4>
+                <h4>Venue: Rio Banquet Hall <br /> <a href="https://maps.app.goo.gl/4jUfhR8GSCVYTnfZA" target="_blank" rel="noopener noreferrer">2850 Hopewell Pl NE, Calgary, AB T1Y 7J7</a> </h4>
+                <h4>Dress Code: <br /><br /> Formal</h4>
                 <br />
                 <table>
                     <tbody>

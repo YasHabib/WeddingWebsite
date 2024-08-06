@@ -18,7 +18,7 @@ body {
   padding: 20px; 
 }
 
-.content-left, .content-right {
+.content-left{
   flex: 1; /* Allow content to shrink but not grow */
   padding: 20px;
   background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent background */
@@ -28,14 +28,3 @@ body {
   overflow: hidden; /* Hide any overflowing content */
 }
 
-.content-left {
-  margin-right: 20%; 
-  margin-left: 3%;
-  /* Add spacing between left and right content */
-}
-
-.content-right {
-  margin-left: 20%;
-  margin-right: 3%;
-  /* Add spacing between left and right content */
-}

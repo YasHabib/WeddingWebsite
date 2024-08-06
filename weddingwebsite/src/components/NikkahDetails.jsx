@@ -5,7 +5,7 @@ const NikkahDetails = () => {
         <div className='nikkahDetails' style={{padding: '20px'}}>
             <div className='info'>
                 <h1>Nikkah</h1>
-                <h4>Venue: Waterfront Park Pavilion <br /> 5225 101 St NW, Calgary, AB T3L 1S4 </h4>
+                <h4>Venue: Waterfront Park Pavilion <br /> <a href="https://maps.app.goo.gl/kGXkN29pgAV87tws7" target="_blank" rel="noopener noreferrer"> 5225 101 St NW, Calgary, AB T3L 1S4 </a> </h4>
                 <h4>Dress Code:</h4>
                 <ui>
                     Bride's and Groom's side: Pastel

@@ -6,6 +6,22 @@
     color: white;
   }
 
+  body {
+    font-family: 'Dancing Script', cursive;
+  }
+  
+  .our-story {
+    font-family: 'Dancing Script', cursive;
+  }
+  
+  .event-details {
+    font-family: 'Dancing Script', cursive;
+  }
+  
+  .info {
+    font-family: 'Dancing Script', cursive;
+  }
+  
   .App {
     display: flex;
     flex-direction: column;

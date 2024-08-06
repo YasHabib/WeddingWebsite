@@ -5,7 +5,8 @@ const HoludDetails = () => {
         <div className='holudDetails' style={{padding: '20px'}}>
             <div className='info'>
                 <h1>Holud</h1>
-                <h4>Venue: Marlborough Park Community Association <br /> 6021 Madigan Dr NE, Calgary, AB T2A 5G9 </h4>
+                <h4>Venue: Marlborough Park Community Association <br />   <a href="https://www.google.com/maps/search/?api=1&query=6021%20Madigan%20Dr%20NE,%20Calgary,%20AB%20T2A%205G9" 
+                                                                                target="_blank" rel="noopener noreferrer">6021 Madigan Dr NE, Calgary, AB T2A 5G9</a> </h4>
                 <h4>Dress Code:</h4>
                 <ui>
                     Grooms side: Light Green <br />
