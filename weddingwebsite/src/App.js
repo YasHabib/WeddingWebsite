@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import OurStory from './components/OurStory';
 import EventDetails from './components/EventDetails';
 import PasswordComponent from './components/PasswordComponents'
-import ViewPassword from './components/ViewPassword'
 
 
 
