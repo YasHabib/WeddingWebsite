@@ -10,7 +10,8 @@ body {
     flex-direction: column; /* Ensure items stack vertically */
     align-items: center; /* Center align items horizontally */
     justify-content: center; /* Center align items vertically */
-    background-image: url('/public/assets/White Beige BG.png'); 
+    /*background-image: url('/public/assets/White Beige BG.png'); */
+    background-color:  #F5E9DC ;
     background-size: cover;
     background-position: center;
     background-repeat: repeat-x;
@@ -21,19 +22,15 @@ body {
 
 #eventContainer div {
     align-items: center;
-    width: 100%;
     justify-content: center;
     display: flex;
-    height: 100vh;
     /* Adjust height to fit viewport */
 }
 
 .info {
     padding: 15px;
     /* Semi-transparent background */
-    background-color: rgba(70, 235, 204, 0.1);
-    color: brown;
-    border-radius: 40px;
+    border-radius: 30px;
     /* Rounded corners */
     box-sizing: border-box;
     overflow: hidden;
