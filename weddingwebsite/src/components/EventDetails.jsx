@@ -11,9 +11,17 @@ function EventDetails() {
 
             </div>
             <div id='eventContainer'>
-                <HoludDetails />
-                <NikkahDetails/>
-                <ReceptionDetails />
+                <div id='eventContainer'>
+                    <div className="eventItem">
+                        <HoludDetails />
+                    </div>
+                    <div className="eventItem">
+                        <NikkahDetails />
+                    </div>
+                    <div className="eventItem">
+                        <ReceptionDetails />
+                    </div>
+                </div>
             </div>
 
         </div>

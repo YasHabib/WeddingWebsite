@@ -22,28 +22,27 @@ body {
 
 #eventContainer div {
     align-items: center;
+    width: 100%;
     justify-content: center;
     display: flex;
     /* Adjust height to fit viewport */
 }
 
+
 .info {
     padding: 15px;
-    /* Semi-transparent background */
     border-radius: 30px;
-    /* Rounded corners */
     box-sizing: border-box;
     overflow: hidden;
-    /* Hide any overflowing content */
     text-align: left;
     display: flex;
     flex-direction: column;
     font-style: italic;
-    font-size: small;
+    font-size: x-large;
     font-family: 'Dancing Script', cursive;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1280px) {
     #eventContainer {
         flex-direction: row; /* Change to row direction for desktop */
     }
