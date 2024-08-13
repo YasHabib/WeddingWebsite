@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import Header from './components/Header';
 import EventDetails from './components/EventDetails';
 import PasswordComponent from './components/PasswordComponents'
+import UploadPhotos from './components/UploadPhotos';
 
 
 
@@ -31,8 +32,9 @@ function App() {
         <PasswordComponent onPasswordSubmit={handlePasswordSubmit} />
       ) : (
         <div>
-          <section id="event-details">
+          <section>
             <EventDetails />
+            <UploadPhotos/>
           </section>
         </div>
       )}

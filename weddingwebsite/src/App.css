@@ -1,21 +1,10 @@
 /* src/App.css */
  
 
-  body {
-    font-family: 'Didot', cursive;
+  html, body {
+    font-family: 'Didot', sans-serif;
   }
   
-  .our-story {
-    font-family: 'Didot', cursive;
-  }
-  
-  .event-details {
-    font-family: 'Didot', cursive;
-  }
-  
-  .info {
-    font-family: 'Didot', cursive;
-  }
   
   .App {
     display: flex;
@@ -29,9 +18,11 @@
     overflow-y: auto; /* Enable scrolling if content exceeds viewport */
   }
   
-  #event-details {
-    flex: 1; /* Expand to take remaining space */
-    overflow-y: auto; /* Enable scrolling if content exceeds viewport */
+  body {
+    background-color: #d9b99b; /* Use your desired background color */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Avoid repeating the image */
   }
 
   

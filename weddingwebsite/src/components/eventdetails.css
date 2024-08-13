@@ -33,7 +33,6 @@ html, body {
     display: flex;
     flex-direction: column;
     font-size: x-large;
-    font-style: italic;
     font-family: 'Didot';
     color: white;
 }
