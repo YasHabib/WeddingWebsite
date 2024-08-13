@@ -1,25 +1,20 @@
 /* src/App.css */
  
-  .App-header {
-    background-color: #282c34;
-    padding: 20px;
-    color: white;
-  }
 
   body {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Didot', cursive;
   }
   
   .our-story {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Didot', cursive;
   }
   
   .event-details {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Didot', cursive;
   }
   
   .info {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Didot', cursive;
   }
   
   .App {

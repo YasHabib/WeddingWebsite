@@ -3,25 +3,24 @@ import './eventdetails.css'
 import HoludDetails from './HoludDetails'
 import NikkahDetails from './NikkahDetails'
 import ReceptionDetails from './ReceptionDetails'
+import OurStory from './OurStory'
 
 function EventDetails() {
     return (
-        <div>
+        <div className='detailPage'>
             <div>
-
+                <OurStory/>
             </div>
             <div id='eventContainer'>
-                <div id='eventContainer'>
-                    <div className="eventItem">
+                    <div>
                         <HoludDetails />
                     </div>
-                    <div className="eventItem">
+                    <div>
                         <NikkahDetails />
                     </div>
-                    <div className="eventItem">
+                    <div>
                         <ReceptionDetails />
                     </div>
-                </div>
             </div>
 
         </div>

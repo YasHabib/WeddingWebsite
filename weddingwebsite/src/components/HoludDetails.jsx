@@ -5,51 +5,44 @@ const HoludDetails = () => {
         <div className='holudDetails' style={{padding: '20px'}}>
             <div className='info'>
                 <h1>Holud</h1>
-                <h4>Venue: Marlborough Park Community Association <br />   <a href="https://www.google.com/maps/search/?api=1&query=6021%20Madigan%20Dr%20NE,%20Calgary,%20AB%20T2A%205G9" 
-                                                                                target="_blank" rel="noopener noreferrer">6021 Madigan Dr NE, Calgary, AB T2A 5G9</a> </h4>
-                <h4>Dress Code:</h4>
+                <p>September 5th, 2024 <br/>
+                Venue: Marlborough Park Community Association    <a href="https://www.google.com/maps/search/?api=1&query=6021%20Madigan%20Dr%20NE,%20Calgary,%20AB%20T2A%205G9" 
+                                                                                target="_blank" rel="noopener noreferrer">6021 Madigan Dr NE, Calgary, AB T2A 5G9</a> <br/>
+                Dress Code: <br/>
                 <ui>
-                    Grooms side: Light Green <br />
-                    Brides side: Light Pink
+                    Grooms side - Green <br />
+                    Brides side - Pink
                 </ui>
-                <br />
+                </p>
                 <table>
                     <tbody>
                         <tr>
-                            <td style={{ padding: '10px' }}>6:00pm: </td>
-                            <td>Couple shoot: couple and friends in same outfits</td>
+                            <td style={{ padding: '10px' }}>6:30pm: </td>
+                            <td>Photoshoots with bridesmaids and groomsmens</td>
                         </tr>
                         <tr>
                             <td style={{ padding: '10px' }}>7:00pm: </td>
-                            <td>Yasin's entry with his siblings and friends</td>
-                        </tr>
-                        <tr>
-                            <td style={{ padding: '10px' }}>7:15pm: </td>
-                            <td>Farhana's entry with her siblings and friends</td>
+                            <td>Grooms entry and Brides entry</td>
                         </tr>
                         <tr>
                             <td style={{ padding: '10px' }}>7:30pm: </td>
-                            <td>Gaye Holud Ceremony with Parents</td>
-                        </tr>
-                        <tr>
-                            <td style={{ padding: '10px' }}>7:30pm: </td>
-                            <td>Dinner</td>
+                            <td>Gaye Holud Ceremony begins</td>
                         </tr>
                         <tr>
                             <td style={{ padding: '10px' }}>8:00pm: </td>
-                            <td>Gaye Holud Ceremony with other guests</td>
+                            <td>Dinner starts</td>
                         </tr>
                         <tr>
                             <td style={{ padding: '10px' }}>9:30pm: </td>
                             <td>Gaye Holud Ceremony Wraps Up</td>
                         </tr>
                         <tr>
-                            <td style={{ padding: '10px' }}>10:00pm: </td>
-                            <td>Choreographed dance starts</td>
+                            <td style={{ padding: '10px' }}>9:45pm: </td>
+                            <td>Dance Performances</td>
                         </tr>
                         <tr>
                             <td style={{ padding: '10px' }}>10:30pm: </td>
-                            <td>Open Dance Floor</td>
+                            <td>DJ</td>
                         </tr>
                     </tbody>
                 </table>

@@ -1,8 +1,9 @@
-html,
-body {
-    height: 100%;
+
+html, body {
     margin: 0;
     padding: 0;
+    width: 100%;
+    overflow-x: hidden; /* Prevent horizontal scroll */
 }
 
 #eventContainer {
@@ -11,10 +12,6 @@ body {
     align-items: center; /* Center align items horizontally */
     justify-content: center; /* Center align items vertically */
     /*background-image: url('/public/assets/White Beige BG.png'); */
-    background-color:  #F5E9DC ;
-    background-size: cover;
-    background-position: center;
-    background-repeat: repeat-x;
     width: 100%; /* Ensure container takes full width */
     min-height: 100vh; /* Ensure container takes full height of the viewport */
     padding: 20px; /* Add padding for spacing */
@@ -32,31 +29,18 @@ body {
 .info {
     padding: 15px;
     border-radius: 30px;
-    box-sizing: border-box;
-    overflow: hidden;
     text-align: left;
     display: flex;
     flex-direction: column;
-    font-style: italic;
     font-size: x-large;
-    font-family: 'Dancing Script', cursive;
+    font-style: italic;
+    font-family: 'Didot';
+    color: white;
 }
 
-@media (min-width: 1280px) {
-    #eventContainer {
-        flex-direction: row; /* Change to row direction for desktop */
-    }
-    .column {
-        width: calc(33.333% - 40px); /* Adjust width for three columns with spacing */
-        margin-bottom: 0; /* Remove bottom margin for desktop view */
-    }
-}
-
-
-.nikkahDetails {
-    padding: 20px;
-}
-
-.receptionDetails {
-    padding: 20px;
+.detailPage{
+    background-color:  #d9b99b ;
+    background-size: cover;
+    width: 100%; /* Ensure the detailPage takes full width */
+    overflow-x: hidden;
 }

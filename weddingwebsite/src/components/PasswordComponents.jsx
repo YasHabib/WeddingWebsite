@@ -25,8 +25,8 @@ const PasswordComponent = ({ onPasswordSubmit }) => {
   return (
     <div className='enterPassword'>
       <form onSubmit={handleFormSubmit}>
-        <label htmlFor="password" style={{ marginBottom: '15px', display: 'block' }}>
-          Enter the password provided to you by one of the hosts:
+        <label htmlFor="password" style={{ marginBottom: '15px', display: 'block', color:'white' }}>
+          Password:
         </label>
         <div className="password-input">
           <input

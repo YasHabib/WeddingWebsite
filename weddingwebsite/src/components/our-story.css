@@ -7,24 +7,33 @@ body {
 }
 
 .our-story {
-  background-image: url('/public/assets/eventDetailPic1.jpg');
+  background-image: linear-gradient(
+    to bottom, 
+    rgba(217, 185, 155, 0) 50%, /* Transparent at the top */
+    rgba(217, 185, 155, 1) 100% /* Solid color at the bottom */
+  ),url('/public/assets/F+Y-1.jpg');
   background-size: cover;
   background-position: center;
-  height: 50vh; /* Adjust height to fit viewport */
+  height: 100vh; /* Adjust height to fit viewport */
   display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 20px; 
 }
 
-.content-left{
+.content {
   flex: 1; /* Allow content to shrink but not grow */
-  padding: 20px;
-  background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent background */
-  color: white;
   border-radius: 10px; /* Rounded corners */
-  box-sizing: border-box;
   overflow: hidden; /* Hide any overflowing content */
+  text-align: center; /* Center the text horizontally */
+  margin: 0 auto; /* Center horizontally */
+  justify-content: center; /* Center horizontally within flexbox */
+  align-items: center; /* Center vertically within flexbox */
+  font-family: 'Didot';
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .content {
+    padding: 30px
+  }
+
 }
 

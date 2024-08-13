@@ -4,42 +4,44 @@ const NikkahDetails = () => {
     return (
         <div className='nikkahDetails' style={{padding: '20px'}}>
             <div className='info'>
-                <h1>Nikkah</h1>
-                <h4>Venue: Waterfront Park Pavilion <br /> <a href="https://maps.app.goo.gl/kGXkN29pgAV87tws7" target="_blank" rel="noopener noreferrer"> 5225 101 St NW, Calgary, AB T3L 1S4 </a> </h4>
-                <h4>Dress Code:</h4>
-                <ui>
-                    Bride's and Groom's side: Pastel
-                </ui>
-                <br />
+                <h1>Nikkah/Akth</h1>
+                <p>September 6th, 2024<br/>
+                Venue: Waterfront Park Pavilion <a href="https://maps.app.goo.gl/kGXkN29pgAV87tws7" target="_blank" rel="noopener noreferrer"> 5225 101 St NW, Calgary, AB T3L 1S4 </a> <br/>
+                Dress Code: Pastel/Light colors
+                </p>
                 <table>
                     <tbody>
                         <tr>
                             <td style={{ padding: '10px' }}>1:00pm: </td>
-                            <td>Couple Shoot at Baker Park</td>
-                        </tr>
-                        <tr>
-                            <td style={{ padding: '10px' }}>2:00pm: </td>
-                            <td>Guests Arrive</td>
-                        </tr>
-                        <tr>
-                            <td style={{ padding: '10px' }}>2:30pm: </td>
-                            <td>Gate dhora/Date holding ceremony <br/> Groom enters after cutting ribbon</td>
-                        </tr>
-                        <tr>
-                            <td style={{ padding: '10px' }}>2:45pm: </td>
-                            <td>Brides Entry with bridesmaids</td>
+                            <td>Couple's first look at Bakers park</td>
                         </tr>
                         <tr>
                             <td style={{ padding: '10px' }}>3:00pm: </td>
-                            <td>Start of Nikkah Ceremony</td>
+                            <td>Guests Arrive</td>
+                        </tr>
+                        <tr>
+                            <td style={{ padding: '10px' }}>3:15pm: </td>
+                            <td>Gate dhora/Gate holding ceremony <br/></td>
                         </tr>
                         <tr>
                             <td style={{ padding: '10px' }}>3:30pm: </td>
+                            <td>Brides Entry with her bridesmaids</td>
+                        </tr>
+                        <tr>
+                            <td style={{ padding: '10px' }}>3:30pm: </td>
+                            <td>Akth/Nikkah Ceremony</td>
+                        </tr>
+                        <tr>
+                            <td style={{ padding: '10px' }}>4:00pm: </td>
                             <td>Photoshoots outside with family and friends</td>
                         </tr>
                         <tr>
-                            <td style={{ padding: '10px' }}>4:30pm: </td>
+                            <td style={{ padding: '10px' }}>5:00pm: </td>
                             <td>Dinner</td>
+                        </tr>
+                        <tr>
+                            <td style={{ padding: '10px' }}>7:00pm: </td>
+                            <td>Bidai/Farewell Ceremony</td>
                         </tr>
                     </tbody>
                 </table>

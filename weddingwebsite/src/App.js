@@ -1,6 +1,6 @@
 import './App.css';
 import React, { useState } from 'react';
-import OurStory from './components/OurStory';
+import Header from './components/Header';
 import EventDetails from './components/EventDetails';
 import PasswordComponent from './components/PasswordComponents'
 
@@ -22,10 +22,10 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
+      <header>
       </header>
       <section id="our-story">
-        <OurStory />
+        <Header />
       </section>
       {!loggedIn ? (
         <PasswordComponent onPasswordSubmit={handlePasswordSubmit} />
