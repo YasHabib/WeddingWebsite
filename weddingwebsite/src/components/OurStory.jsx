@@ -1,6 +1,5 @@
 import React from 'react';
 import './our-story.css'
-import { BiColor } from 'react-icons/bi';
 
 function OurStory() {
   return (
