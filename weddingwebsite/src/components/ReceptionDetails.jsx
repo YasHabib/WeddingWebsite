@@ -12,35 +12,35 @@ const ReceptionDetails = () => {
                 <table>
                     <tbody>
                         <tr>
-                            <td style={{ padding: '10px' }}>6:00pm: </td>
+                            <td style={{ padding: '10px' }}>06:00pm: </td>
                             <td>Doors open</td>
                         </tr>
                         <tr>
-                            <td style={{ padding: '10px' }}>6:30pm: </td>
+                            <td style={{ padding: '10px' }}>06:30pm: </td>
                             <td>Appetizers</td>
                         </tr>
                         <tr>
-                            <td style={{ padding: '10px' }}>6:30pm: </td>
+                            <td style={{ padding: '10px' }}>06:30pm: </td>
                             <td>Entrances</td>
                         </tr>
                         <tr>
-                            <td style={{ padding: '10px' }}>7:00pm: </td>
+                            <td style={{ padding: '10px' }}>07:00pm: </td>
                             <td>Welcome Speech</td>
                         </tr>
                         <tr>
-                            <td style={{ padding: '10px' }}>7:15pm: </td>
+                            <td style={{ padding: '10px' }}>07:15pm: </td>
                             <td>First Dance</td>
                         </tr>
                         <tr>
-                            <td style={{ padding: '10px' }}>7:30pm: </td>
+                            <td style={{ padding: '10px' }}>07:30pm: </td>
                             <td>Speeches</td>
                         </tr>
                         <tr>
-                            <td style={{ padding: '10px' }}>8:00pm: </td>
+                            <td style={{ padding: '10px' }}>08:00pm: </td>
                             <td>Dinner and Photos</td>
                         </tr>      
                         <tr>
-                            <td style={{ padding: '10px' }}>9:30pm: </td>
+                            <td style={{ padding: '10px' }}>09:30pm: </td>
                             <td>Desserts/Cake Cutting</td>
                         </tr>                    
                         <tr>

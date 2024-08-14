@@ -6,38 +6,34 @@ const HoludDetails = () => {
             <div className='info'>
                 <h1>Holud</h1>
                 <p>September 5th, 2024 <br/>
-                Venue: Marlborough Park Community Association    <a href="https://www.google.com/maps/search/?api=1&query=6021%20Madigan%20Dr%20NE,%20Calgary,%20AB%20T2A%205G9" 
+                Venue: Marlborough Park Community Association <a href="https://www.google.com/maps/search/?api=1&query=6021%20Madigan%20Dr%20NE,%20Calgary,%20AB%20T2A%205G9" 
                                                                                 target="_blank" rel="noopener noreferrer">6021 Madigan Dr NE, Calgary, AB T2A 5G9</a> <br/>
-                Dress Code: <br/>
-                <ui>
-                    Grooms side - Green <br />
-                    Brides side - Pink
-                </ui>
+                Dress Code: Brides side - Pink, Grooms side - Green                    
                 </p>
                 <table>
                     <tbody>
                         <tr>
-                            <td style={{ padding: '10px' }}>6:30pm: </td>
+                            <td style={{ padding: '10px' }}>06:30pm: </td>
                             <td>Photoshoots with bridesmaids and groomsmens</td>
                         </tr>
                         <tr>
-                            <td style={{ padding: '10px' }}>7:00pm: </td>
+                            <td style={{ padding: '10px' }}>07:00pm: </td>
                             <td>Grooms entry and Brides entry</td>
                         </tr>
                         <tr>
-                            <td style={{ padding: '10px' }}>7:30pm: </td>
+                            <td style={{ padding: '10px' }}>07:30pm: </td>
                             <td>Gaye Holud Ceremony begins</td>
                         </tr>
                         <tr>
-                            <td style={{ padding: '10px' }}>8:00pm: </td>
+                            <td style={{ padding: '10px' }}>08:00pm: </td>
                             <td>Dinner starts</td>
                         </tr>
                         <tr>
-                            <td style={{ padding: '10px' }}>9:30pm: </td>
+                            <td style={{ padding: '10px' }}>09:30pm: </td>
                             <td>Gaye Holud Ceremony Wraps Up</td>
                         </tr>
                         <tr>
-                            <td style={{ padding: '10px' }}>9:45pm: </td>
+                            <td style={{ padding: '10px' }}>09:45pm: </td>
                             <td>Dance Performances</td>
                         </tr>
                         <tr>

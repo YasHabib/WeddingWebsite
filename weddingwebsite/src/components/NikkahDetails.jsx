@@ -12,35 +12,35 @@ const NikkahDetails = () => {
                 <table>
                     <tbody>
                         <tr>
-                            <td style={{ padding: '10px' }}>1:00pm: </td>
+                            <td style={{ padding: '10px' }}>01:00pm: </td>
                             <td>Couple's first look at Bakers park</td>
                         </tr>
                         <tr>
-                            <td style={{ padding: '10px' }}>3:00pm: </td>
+                            <td style={{ padding: '10px' }}>03:00pm: </td>
                             <td>Guests Arrive</td>
                         </tr>
                         <tr>
-                            <td style={{ padding: '10px' }}>3:15pm: </td>
+                            <td style={{ padding: '10px' }}>03:15pm: </td>
                             <td>Gate dhora/Gate holding ceremony <br/></td>
                         </tr>
                         <tr>
-                            <td style={{ padding: '10px' }}>3:30pm: </td>
+                            <td style={{ padding: '10px' }}>03:30pm: </td>
                             <td>Brides Entry with her bridesmaids</td>
                         </tr>
                         <tr>
-                            <td style={{ padding: '10px' }}>3:30pm: </td>
+                            <td style={{ padding: '10px' }}>03:30pm: </td>
                             <td>Akth/Nikkah Ceremony</td>
                         </tr>
                         <tr>
-                            <td style={{ padding: '10px' }}>4:00pm: </td>
+                            <td style={{ padding: '10px' }}>04:00pm: </td>
                             <td>Photoshoots outside with family and friends</td>
                         </tr>
                         <tr>
-                            <td style={{ padding: '10px' }}>5:00pm: </td>
+                            <td style={{ padding: '10px' }}>05:00pm: </td>
                             <td>Dinner</td>
                         </tr>
                         <tr>
-                            <td style={{ padding: '10px' }}>7:00pm: </td>
+                            <td style={{ padding: '10px' }}>07:00pm: </td>
                             <td>Bidai/Farewell Ceremony</td>
                         </tr>
                     </tbody>

@@ -4,6 +4,7 @@ import Header from './components/Header';
 import EventDetails from './components/EventDetails';
 import PasswordComponent from './components/PasswordComponents'
 import UploadPhotos from './components/UploadPhotos';
+import DisplayPhotos from './components/DisplayPhotos';
 
 
 
@@ -35,6 +36,7 @@ function App() {
           <section>
             <EventDetails />
             <UploadPhotos/>
+            <DisplayPhotos/>
           </section>
         </div>
       )}
