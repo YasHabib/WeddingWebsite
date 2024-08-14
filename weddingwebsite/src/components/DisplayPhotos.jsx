@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { listAll, getDownloadURL, ref } from 'firebase/storage';
 import { storage } from './Firebase';
-import Slider from 'react-slick';
 
 
 import './displayphotos.css'; // For custom styling
