@@ -1,17 +1,13 @@
 /* src/components/UploadPhotos.css */
 
 .upload-container {
-    border-radius: 10px; /* Rounded corners */
-    padding: 20px; /* Spacing around content */
     text-align: center; /* Center the text horizontally */
-    max-width: 400px; /* Set a maximum width for better layout */
-    margin: auto; /* Center horizontally */
     color: #fff; /* Text color to match the design */
+    font-family: 'Didot', sans-serif;
+
   }
   
   .upload-container h1{
-    margin: 0;
-    padding: 20px;
     font-size: 2rem; 
   }
   .upload-message {
@@ -33,3 +29,4 @@
     background-color: #f5f5f5; /* Light shade for hover effect */
   }
   
+

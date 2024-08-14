@@ -10,19 +10,16 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh; /* Ensure the app takes up at least the viewport height */
-    overflow: hidden; /* Hide overflow to prevent double scrollbar issues */
   }
   
   #our-story {
     flex: 1; /* Expand to take remaining space */
-    overflow-y: auto; /* Enable scrolling if content exceeds viewport */
   }
   
   body {
     background-color: #d9b99b; /* Use your desired background color */
     background-size: cover; /* Cover the entire viewport */
     background-position: center; /* Center the background image */
-    background-repeat: no-repeat; /* Avoid repeating the image */
   }
 
   

@@ -67,12 +67,15 @@ function UploadPhotos() {
         accept="image/*"
         multiple
         onChange={handleFileChange}
-        className="upload-input"
+        className='upload-input'
       />
       <button onClick={handleUpload} className="upload-button">
         {uploading ? (progress === 100 ? 'Upload Complete' : `Uploading... ${progress}%`) : 'Upload'}
       </button>
+      <br/>
+      <br/>
     </div>
+
   );
 }
 
