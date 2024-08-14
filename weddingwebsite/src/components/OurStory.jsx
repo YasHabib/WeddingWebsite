@@ -4,13 +4,12 @@ import './our-story.css'
 function OurStory() {
   return (
 <div className='content'>
-  <br/><br/>
   <h3 style={{ margin: 0 }}>
     <strong>THE LONGEST LOVE STORY....</strong>
   </h3>
   <p style={{ margin: '10px 0' }}>
-    Over a year ago, a girl from Calgary met a tall, dark, and handsome guy from Edmonton for coffee. <br/>
-    That first date was so magical that he went down on one knee, and she immediately said yes! <br/>
+    Over a year ago, a beautiful girl from Calgary met a tall, dark, and handsome guy from Edmonton for coffee. <br/>
+    That first date was so magical (it was her smile) that he went down on one knee, and she immediately said yes! <br/>
     What they say about love at first sight is 100% true. <br/>
   </p>
   <p style={{ margin: '10px 0' }}>
@@ -21,10 +20,11 @@ function OurStory() {
     Please join us in our wedding events and wish us all the best for the future.
   </p>
   <p style={{ margin: 0}}>
-    With love and regards,<br/><br/>
-    <strong>Farhana & Yasin</strong>
+    With love and regards,<br/> 
+    <img src="/assets/rose.png" className="rose"/><br/>
+    <strong>Farhana & Yasin  </strong>
   </p>
-</div>
+  </div>
 
 
   );

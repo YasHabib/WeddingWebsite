@@ -14,7 +14,6 @@ html, body {
     /*background-image: url('/public/assets/White Beige BG.png'); */
     width: 100%; /* Ensure container takes full width */
     min-height: 100vh; /* Ensure container takes full height of the viewport */
-    padding: 20px; /* Add padding for spacing */
 }
 
 #eventContainer div {
@@ -25,7 +24,7 @@ html, body {
     /* Adjust height to fit viewport */
 }
 
-
+/* Ensure uniform width for all content sections */
 .info {
     padding: 15px;
     border-radius: 30px;
@@ -35,7 +34,41 @@ html, body {
     font-size: x-large;
     font-family: 'Didot';
     color: white;
+    width: 100%; /* Ensure full width */
+    box-sizing: border-box; /* Include padding and border in width calculation */
 }
+
+.info p {
+    text-align: center;
+}
+/* Style for the table in each component */
+.info table {
+    width: 100%; /* Ensure table takes full width */
+    border-collapse: collapse; /* Collapse borders for cleaner look */
+}
+
+.info th, .info td {
+    padding: 10px; /* Space inside table cells */
+    border-bottom: 1px solid #ddd; /* Optional: Add a light border between rows */
+    text-align: left; /* Align text to the left by default */
+}
+
+.info td {
+    vertical-align: top; /* Align text at the top of the cell */
+}
+
+/* Align time column to the right and set fixed width */
+.info td:first-child {
+    text-align: right; /* Align time to the right */
+    width: 20%; /* Adjust width as needed */
+}
+
+/* Content column takes up remaining space */
+.info td:last-child {
+    width: 80%; /* Adjust width as needed */
+}
+
+
 
 .detailPage{
     background-color:  #d9b99b ;

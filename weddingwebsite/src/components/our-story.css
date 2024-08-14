@@ -30,6 +30,11 @@ body {
   color: white;
 }
 
+.rose{
+  width: 50px; /* Set the width you want */
+  height: auto; /* Maintain the aspect ratio */
+  
+}
 @media (min-width: 768px) {
   .content {
     padding: 30px

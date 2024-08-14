@@ -3,15 +3,11 @@
 .upload-container {
     text-align: center; /* Center the text horizontally */
     color: #fff; /* Text color to match the design */
-    font-family: 'Didot', sans-serif;
-
   }
   
   .upload-container h1{
     font-size: 2rem; 
-  }
-  .upload-message {
-    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
   }
   
   .upload-button {
@@ -28,5 +24,18 @@
   .upload-button:hover {
     background-color: #f5f5f5; /* Light shade for hover effect */
   }
+
+  .upload-input::-webkit-file-upload-button {
+    padding: 10px 20px; /* Add padding to the file button */
+    font-size: 16px; /* Increase the font size of the file button */
+    cursor: pointer; /* Ensure the cursor is a pointer */
+    background-color: #ffffff; /* Background color matching your theme */
+    color: #d9b99b; /* Text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Add rounded corners */
+  }
   
+  .upload-input:hover::-webkit-file-upload-button {
+    background-color: #f5f5f5; /* Light shade for hover effect */
+  }
 

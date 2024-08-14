@@ -6,7 +6,7 @@ const NikkahDetails = () => {
             <div className='info'>
                 <h1>Nikkah/Akth</h1>
                 <p>September 6th, 2024<br/>
-                Venue: Waterfront Park Pavilion <a href="https://maps.app.goo.gl/kGXkN29pgAV87tws7" target="_blank" rel="noopener noreferrer"> 5225 101 St NW, Calgary, AB T3L 1S4 </a> <br/>
+                Venue: Waterfront Park Pavilion <a href="https://maps.app.goo.gl/kGXkN29pgAV87tws7" target="_blank" rel="noopener noreferrer"> 5225 101 St NW, Calgary</a> <br/>
                 Dress Code: Pastel/Light colors
                 </p>
                 <table>

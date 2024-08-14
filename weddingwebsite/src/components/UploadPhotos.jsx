@@ -12,6 +12,8 @@ function UploadPhotos() {
 
   const handleFileChange = (event) => {
     setSelectedFile(event.target.files[0]);
+    setUploading(false); // Reset the uploading state when a new file is selected
+    setProgress(0); // Reset the progress state when a new file is selected
   };
 
   const handleUpload = () => {
@@ -61,7 +63,6 @@ function UploadPhotos() {
   return (
     <div className="upload-container">
       <h1>GALLERY</h1>
-      <p className="upload-message">Please upload any wedding pictures below:</p>
       <input
         type="file"
         accept="image/*"

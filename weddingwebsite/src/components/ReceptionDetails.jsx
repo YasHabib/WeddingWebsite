@@ -6,7 +6,7 @@ const ReceptionDetails = () => {
             <div className='info'>
                 <h1>Reception</h1>
                 <p>September 8th, 2024 <br/>
-                Venue: Rio Banquet Hall <a href="https://maps.app.goo.gl/4jUfhR8GSCVYTnfZA" target="_blank" rel="noopener noreferrer">2850 Hopewell Pl NE, Calgary, AB T1Y 7J7</a> <br/>
+                Venue: Rio Banquet Hall <a href="https://maps.app.goo.gl/4jUfhR8GSCVYTnfZA" target="_blank" rel="noopener noreferrer">2850 Hopewell Pl NE, Calgary</a> <br/>
                 Dress Code: Formal
                 </p>
                 <table>
