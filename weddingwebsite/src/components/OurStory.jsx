@@ -21,7 +21,7 @@ function OurStory() {
   </p>
   <p style={{ margin: 0}}>
     With love and regards,<br/> 
-    <img src="/assets/rose.png" className="rose"/><br/>
+    <img src="/assets/rose.png" className="rose" alt='rose'/><br/>
     <strong>Farhana & Yasin  </strong>
   </p>
   </div>
