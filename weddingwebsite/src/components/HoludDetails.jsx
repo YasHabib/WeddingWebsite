@@ -29,11 +29,11 @@ const HoludDetails = () => {
                             <td>Dinner starts</td>
                         </tr>
                         <tr>
-                            <td style={{ padding: '10px' }}>09:30pm: </td>
+                            <td style={{ padding: '10px' }}>09:00pm: </td>
                             <td>Gaye Holud Ceremony Wraps Up</td>
                         </tr>
                         <tr>
-                            <td style={{ padding: '10px' }}>09:45pm: </td>
+                            <td style={{ padding: '10px' }}>09:30pm: </td>
                             <td>Dance Performances</td>
                         </tr>
                         <tr>
